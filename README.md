@@ -1,5 +1,5 @@
 # conda-envs
-Collection of conda environments
+Collection of conda environments.
 
 Export environment:
 ```bash
