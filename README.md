@@ -4,8 +4,9 @@ Collection of conda environments.
 Export environment:
 ```bash
 ENVNAME=jupyter
-conda env export --from-history -n $ENVNAME | sed '/^prefix:/d' > $ENVNAME.yml && conda env export -n $ENVNAME | sed -ne '/pip:/,$ p' | sed '/^prefix:/d' >> $ENVNAME.yml
+conda env export --from-history -n $ENVNAME | sed '/^prefix:/d' > $ENVNAME.yml && conda env export -n $ENVNAME | sed -ne '/pip:/,$ p' | sed '/^prefix:/d' | sed 's/\=.*//' >> $ENVNAME.yml
 ```
+This is a workaround because `--from-history` does not return pip installed packages.
 
 Create/update environment:
 ```bash

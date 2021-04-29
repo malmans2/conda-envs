@@ -28,4 +28,4 @@ dependencies:
   - intake
   - intake-xarray
   - pip:
-    - numbagg==0.1
+    - numbagg
