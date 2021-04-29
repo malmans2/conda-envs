@@ -4,7 +4,7 @@ Collection of conda environments.
 Export environment:
 ```bash
 ENVNAME=jupyter
-conda activate $ENVNAME && conda env export --from-history > $ENVNAME.yml && sed -i '/^prefix:/d' $ENVNAME.yml
+conda env export --from-history -n $ENVNAME | sed '/^prefix:/d' > $ENVNAME.yml && conda env export -n $ENVNAME | sed -ne '/pip:/,$ p' | sed '/^prefix:/d' >> $ENVNAME.yml
 ```
 
 Create/update environment:

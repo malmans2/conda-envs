@@ -1,0 +1,31 @@
+name: xarray
+channels:
+  - conda-forge
+dependencies:
+  - xarray
+  - dask
+  - netcdf4
+  - bottleneck
+  - h5netcdf
+  - scipy
+  - pydap
+  - zarr
+  - fsspec
+  - cftime
+  - rasterio
+  - cfgrib
+  - matplotlib
+  - seaborn
+  - nc-time-axis
+  - cf_xarray
+  - xesmf
+  - cartopy
+  - ipykernel
+  - pip
+  - gsw
+  - xgcm
+  - numba
+  - intake
+  - intake-xarray
+  - pip:
+    - numbagg==0.1
