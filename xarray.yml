@@ -28,7 +28,6 @@ dependencies:
   - intake
   - intake-xarray
   - cmocean
-  - fsspec
   - aiohttp
   - pip:
     - numbagg
