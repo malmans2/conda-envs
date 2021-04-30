@@ -27,5 +27,6 @@ dependencies:
   - numba
   - intake
   - intake-xarray
+  - cmocean
   - pip:
     - numbagg
