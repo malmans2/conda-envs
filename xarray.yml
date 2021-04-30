@@ -28,6 +28,7 @@ dependencies:
   - intake
   - intake-xarray
   - cmocean
-  - fsspec!=0.9.0  # https://github.com/intake/intake/issues/591
+  - fsspec
+  - aiohttp
   - pip:
     - numbagg
