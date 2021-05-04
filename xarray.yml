@@ -28,6 +28,9 @@ dependencies:
   - intake
   - intake-xarray
   - cmocean
+  - xoak
+  - scikit-learn
+  - pys2index
   - aiohttp
   - pip:
     - numbagg
