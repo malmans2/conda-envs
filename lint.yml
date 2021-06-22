@@ -1,10 +1,10 @@
 name: lint
 channels:
-  - conda-forge
+- conda-forge
 dependencies:
-  - isort
-  - nbqa
-  - black
-  - pylint
-  - mypy
-  - flake8
+- isort
+- nbqa
+- black
+- pylint
+- mypy
+- flake8
