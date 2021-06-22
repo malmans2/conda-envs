@@ -33,5 +33,7 @@ dependencies:
   - scikit-learn
   - pys2index
   - cmasher
+  - imageio
+  - ffmpeg
   - pip:
     - numbagg
