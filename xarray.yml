@@ -32,5 +32,6 @@ dependencies:
   - xoak
   - scikit-learn
   - pys2index
+  - cmasher
   - pip:
     - numbagg
