@@ -35,5 +35,6 @@ dependencies:
 - cmasher
 - imageio
 - ffmpeg
+- pooch
 - pip:
   - numbagg
