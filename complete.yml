@@ -1,4 +1,4 @@
-name: xarray
+name: complete
 channels:
 - conda-forge
 dependencies:
