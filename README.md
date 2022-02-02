@@ -12,5 +12,5 @@ Feature request issue: https://github.com/conda/conda/issues/9628
 Create/update environment:
 ```bash
 ENVNAME=jupyter
-mamba env create -f https://raw.githubusercontent.com/malmans2/conda-envs/main/$ENVNAME.yml || mamba env update -f https://raw.githubusercontent.com/malmans2/conda-envs/main/$ENVNAME.yml
+mamba env create -f https://raw.githubusercontent.com/malmans2/conda-envs/main/$ENVNAME.yml --force
 ```
